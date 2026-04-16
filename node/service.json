@@ -9,6 +9,10 @@
     "status": {
       "path": "/_v/status/:code",
       "public": true
+    },
+    "viacep": {
+      "path": "/_v/viacep/:zipCode",
+      "public": true
     }
   }
 }

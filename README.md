@@ -28,6 +28,7 @@ node/
 ```
 
 ### Por que Clean Architecture?
+
 1. **Independência de Framework**: A lógica de negócio não depende das APIs internas da VTEX.
 2. **Testabilidade**: Facilita a criação de testes unitários sem mocks complexos de infraestrutura.
 3. **Facilidade de Manutenção**: Mudanças em serviços externos (como trocar o provedor de CEP) afetam apenas a camada de `data` ou `clients`.
@@ -35,9 +36,11 @@ node/
 ## 🛠️ Instalação e Execução
 
 ### Pré-requisitos
+
 - possuir o [VTEX Toolbelt](https://learn.vtex.com/docs/course-vtex-io-getting-started-setup-step-1-installing-the-vtex-toolbelt-pt) instalado.
 
 ### Passo a Passo
+
 1. Clone o repositório.
 2. Acesse a pasta do projeto:
    ```bash
@@ -61,16 +64,15 @@ node/
 O serviço expõe os seguintes endpoints:
 
 ### Status
+
 `GET /_v/status/:code`
 Retorna informações sobre um código de status HTTP específico.
 
 ### ViaCEP
+
 `GET /_v/viacep/:zipCode`
 Retorna dados de endereço para o CEP informado, utilizando a API do ViaCEP.
 
-## 📄 Manifest
-
-O projeto está configurado sob o vendor `niazi`. Certifique-se de ajustar o `manifest.json` se for utilizar em outra conta.
-
 ---
+
 Desenvolvido como um exemplo de excelência técnica em VTEX IO.
